@@ -68,3 +68,7 @@ nunjucksEnv.add(macroPaths, namespace)
 ```
 {% set varSink = addGlobal('globalProp', 'value') %}
 ```
+
+## Test assets
+
+The macro files used for testing are located in `lib/spec/macros`
