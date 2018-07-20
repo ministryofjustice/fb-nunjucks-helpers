@@ -11,7 +11,9 @@ module.exports = () => ({
     { pattern: 'dist/**/*', load: false }
   ],
   tests: [
-    'lib/**/*.unit.spec.js'
+    'lib/**/*.unit.spec.js',
+    "!​lib/nunjucks-macro-helpers.unit.spec.js",
+    "!​lib/fb-nunjucks-helpers.unit.spec.js"
   ],
   env: {
     type: 'node'
