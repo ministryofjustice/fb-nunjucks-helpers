@@ -4,6 +4,8 @@ Form Builder Nunjucks helpers
 
 ## Usage
 
+`npm install @ministryofjustice/fb-nunjucks-helpers`
+
 ### Set up
 
 ```
