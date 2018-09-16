@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-nunjucks-helpers",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Form Builder Nunjucks helpers",
   "main": "lib/fb-nunjucks-helpers.js",
   "scripts": {
