@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-nunjucks-helpers",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Form Builder Nunjucks helpers",
   "main": "lib/fb-nunjucks-helpers.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "lodash.get": "^4.4.2",
     "lodash.set": "^4.3.2",
     "markdown-it": "^8.4.2",
-    "nunjucks": "^3.1.7"
+    "nunjucks": "^3.2.0"
   },
   "repository": {
     "type": "git",
