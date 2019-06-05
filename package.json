@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-nunjucks-helpers",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Form Builder Nunjucks helpers",
   "main": "lib/fb-nunjucks-helpers.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "test:unit": "tape lib/**/*.unit.spec.js"
   },
   "devDependencies": {
-    "@ministryofjustice/eslint-config-fb": "^1.0.5",
+    "@ministryofjustice/eslint-config-fb": "^1.0.7",
     "npm-run-all": "^4.1.5",
-    "tape": "^4.10.1"
+    "tape": "^4.10.2"
   },
   "dependencies": {
     "glob-promise": "^3.4.0",
