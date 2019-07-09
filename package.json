@@ -4,9 +4,7 @@
   "description": "Form Builder Nunjucks helpers",
   "main": "lib/fb-nunjucks-helpers.js",
   "scripts": {
-    "test": "npm-run-all test:lint test:unit",
-    "test:lint": "eslint lib",
-    "test:unit": "tape lib/**/*.unit.spec.js"
+    "test": "tape lib/**/*.unit.spec.js && eslint lib"
   },
   "devDependencies": {
     "@ministryofjustice/eslint-config-fb": "^1.0.7",
