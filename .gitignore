@@ -43,3 +43,9 @@ jspm_packages
 
 # Yarn files
 .yarnclean
+
+# User-defined NPM configuration
+.npmrc
+
+# User-defined NVM configuration
+.nvmrc

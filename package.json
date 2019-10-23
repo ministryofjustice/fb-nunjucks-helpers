@@ -1,14 +1,24 @@
 {
   "name": "@ministryofjustice/fb-nunjucks-helpers",
   "version": "0.0.22",
+  "author": "Form Builder Team <form-builder-team@digital.justice.gov.uk>",
+  "license": "MIT",
   "description": "Form Builder Nunjucks helpers",
   "main": "lib/fb-nunjucks-helpers.js",
   "scripts": {
-    "test": "tape lib/**/*.unit.spec.js && eslint lib"
+    "lint": "eslint lib",
+    "lint:fix": "eslint lib --fix",
+    "test": "tap --reporter spec"
   },
   "devDependencies": {
-    "@ministryofjustice/eslint-config-fb": "^1.1.0",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "npm-run-all": "^4.1.5",
+    "tap": "^14.8.2",
     "tape": "^4.11.0"
   },
   "dependencies": {
@@ -21,7 +31,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ministryofjustice/fb-nunjucks-helpers.git"
-  },
-  "author": "github@alex.fu2k.org",
-  "license": "MIT"
+  }
 }
