@@ -1,8 +1,6 @@
 {
   "name": "@ministryofjustice/fb-nunjucks-helpers",
-  "version": "0.0.22",
-  "author": "Form Builder Team <form-builder-team@digital.justice.gov.uk>",
-  "license": "MIT",
+  "version": "0.0.23",
   "description": "Form Builder Nunjucks helpers",
   "main": "lib/fb-nunjucks-helpers.js",
   "scripts": {
@@ -10,20 +8,22 @@
     "lint:fix": "eslint lib --fix",
     "test": "tap --reporter spec"
   },
-  "devDependencies": {
-    "@ministryofjustice/eslint-config-fb": "^1.1.2",
-    "tap": "^14.8.2",
-    "tape": "^4.11.0"
+  "author": "Form Builder Team <form-builder-team@digital.justice.gov.uk>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ministryofjustice/fb-nunjucks-helpers.git"
   },
+  "license": "MIT",
   "dependencies": {
     "glob-promise": "^3.4.0",
     "lodash.get": "^4.4.2",
     "lodash.set": "^4.3.2",
-    "markdown-it": "^9.1.0",
+    "markdown-it": "^10.0.0",
     "nunjucks": "^3.2.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ministryofjustice/fb-nunjucks-helpers.git"
+  "devDependencies": {
+    "@ministryofjustice/eslint-config-fb": "^1.1.2",
+    "tap": "^14.8.2",
+    "tape": "^4.11.0"
   }
 }
